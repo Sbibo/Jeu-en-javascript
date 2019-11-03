@@ -1,0 +1,285 @@
+
+td{
+   border:2px solid black; 
+    height: 50px;
+    border : collapse;
+    vertical-align: bottom;
+}
+#map {
+  width: 1000px;
+  border: 5px black solid;
+  margin: auto;
+  position: relative;
+  z-index: 3;       
+}
+header {
+    height: auto;
+    text-align: center;
+    vertical-align: middle;
+    padding :30px; 
+}
+#axe{
+    
+    position : absolute;
+    width: 80px;
+    height: 80px;
+    top : 500px;
+    background : url('../image/axe.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;  
+}
+#axed{
+    position : absolute;
+    top : 520px;
+    left : 100px;
+    color:#fff;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px #000;
+    text-align: center;
+    font-style: italic;
+    font-family:Luminari, fantasy;
+    font-size: 20px;
+    
+}
+
+#sword{
+    position : absolute;
+    width: 80px;
+    height: 80px;
+    top : 420px;
+    background :url('../image/sword.png'); 
+    background-repeat: no-repeat;
+    background-size: cover;  
+}
+#sworded{
+    position : absolute;
+    top : 440px;
+    left : 100px;
+    color:#fff;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px #000;
+    text-align: center;
+    font-style: italic;
+    font-family:  Luminari, fantasy;
+    font-size: 20px;
+}
+#wood{
+      position : absolute;
+    width: 80px;
+    height: 80px;
+    top : 740px;
+    background :url('../image/woodspoon.jpg'); 
+    background-repeat: no-repeat;
+    background-size: cover;  
+    
+}
+#music{
+      position : absolute;
+    width: 80px;
+    height: 80px;
+    top : 850px;
+    right: 1000px;
+}
+#wooded{
+    position : absolute;
+    top : 740px;
+    left : 100px;
+    color:#fff;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px #000;
+    text-align: center;
+    font-style: italic;
+    font-family:  Luminari, fantasy;
+    font-size: 20px;
+}
+
+#hammer{ 
+    position : absolute;
+    width: 80px;
+    height: 80px;
+    top : 580px;
+    background :url('../image/hammer.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;  
+}
+#hammered{
+    position : absolute;
+    top : 600px;
+    left : 100px;
+    color:#fff;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px #000;
+    text-align: center;
+    font-style: italic;
+    font-family:  Luminari, fantasy;
+    font-size: 20px;
+        
+}
+#armored{
+    position : absolute;
+    top : 820px;
+    left : 100px;
+    color:#fff;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px #000;
+    text-align: center;
+    font-style: italic;
+    font-family:  Luminari, fantasy;
+    font-size: 20px;
+        
+}
+#armor{
+    
+    position : absolute;
+    width: 80px;
+    height: 80px;
+    top : 820px;
+    background :url('../image/armor.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;  
+}
+
+#stick{
+    
+    position : absolute;
+    width: 80px;
+    height: 80px;
+    top : 660px;
+    background :url('../image/sticker.png');
+    background-repeat: no-repeat;
+    background-size: cover;  
+}
+#sticked{   
+    position : absolute;
+    top : 680px;
+    left : 100px;
+    color:#fff;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px #000;
+    text-align: center; 
+    font-style: italic;
+    font-family: Luminari, fantasy;
+    font-size: 20px;
+}
+#weapons{
+    position : absolute;
+    top : 390px;
+    color:#fff;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px #000;
+    font-family:  DejaVu Sans Mono, monospace
+    text-align: center;
+    left : 150px;
+    font-size: 25px;
+    font-weight:bold;
+}
+#rules {
+    position : absolute;
+    top : 140px;
+    color:#fff;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px #000;
+    font-size: 20px;
+    font-family: Apple Chancery, cursive;
+}
+#rulestext {
+    position : absolute;
+    top : 180px;
+    color:#fff;
+
+}
+#characters{
+    position : absolute;
+    top : 150px;
+    right :80px;
+    color:#fff;
+    font-style: italic;
+    font-family: Luminari, fantasy;
+    font-size: 20px;
+    text-shadow: 2px 2px 2px #000;   
+}
+
+
+header h1{
+    font-size: 35px;
+    text-align: center;
+    color:#fff;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px #000;
+}
+
+body {
+    background-image :url('../image/4.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.blockStyle{
+    background-image:url('../image/ae.png');
+    background-repeat: no-repeat ;
+    background-size: cover;
+    cursor : pointer;   
+}
+.Samourai{
+    background-image :url('../image/zen.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: cover;
+    background-position: center;  
+}
+.Fantassin{
+    background-image:url('../image/zeb.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: cover;
+    background-position: center;
+
+}
+.axeStyle {
+    background-image:url('../image/axe.jpg');
+    background-repeat: no-repeat ;
+    background-size: cover;
+    background-position: center;
+    
+}
+.hammerStyle {
+   background-image:url('../image/hammer.jpg');
+    background-repeat: no-repeat ;
+    background-size: cover;
+    background-position: center;
+    height :20px; 
+    background-size: contain;
+}
+.swordStyle {
+   background-image:url('../image/sword.png');
+    background-repeat: no-repeat ;
+    background-size: cover;
+    background-position: center;
+    height :20px; 
+    background-size: contain;
+}
+.stickerStyle {
+    background-image:url('../image/sticker.png');
+    background-repeat: no-repeat ;
+    background-size: cover;
+    background-position: center;
+    height :20px; 
+    background-size: contain;
+}
+.wood{
+    background-image:url('../image/woodspoon.jpg');
+    background-repeat: no-repeat ;
+    background-size: cover;
+    background-position: center;
+    height :20px; 
+    background-size: contain;
+    
+}
+.armorStyle {
+    background-image:url('../image/armor.jpg');
+    background-repeat: no-repeat ;
+    background-size: cover;
+    background-position: center;
+    height :20px; 
+    background-size: contain;
+}
+

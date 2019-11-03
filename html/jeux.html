@@ -1,0 +1,72 @@
+<!doctype html>
+
+<html>
+    
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <header>
+        <h1> Jeu tour par tour Samouraï contre Fantassin</h1>
+    </header>
+</head>
+
+<body >
+    <div id="container"></div>
+    <div id ="name"></div>
+    <div id = "rules"> Les régles du jeu</div>
+        <div id ="rulestext"> 
+        Vous et votre adversaire êtes placez aléatoirement à chaque début<br> de Partie sur une carte ou est dispersé 10 blocks<br> que vous ne pouvez ni franchir ni détruire ainsi que des armes <br>,vous avez 3 tour l'un après l'autre ,<br> l'arme par défaut fait 10 dégats <br> ramassez une arme pour augmenter vos dégats  <br>et combattez votre adversaire <br>dans un combat à mort<br> vous pouvez choisir d'attaquer ou de vous défendre<br> si vous vous défendez vous subissez seulement la moitié des dégats,<br> chaque arme est différente.<br> Combattez !
+        </div>
+    <div id="characters">
+    Samouraï<br> 
+    Points de vie : <div  id="samouraiHealth"></div>
+    Dégats : <div id="samouraiDamage"></div>
+    <div id ='sam'>
+    <button id='SamAttack'>ATTAQUE</button>
+    <button id='SamDef'>DEFENSE</button>
+    </div>
+    <br>
+    <br>
+
+        VERSUS
+    <br>
+        <br>
+    Fantassin<br>
+    Points de vie : <div id="warriorHealth"></div>
+    Dégats : <div id="warriorDamage"></div>
+        <div id ='fan'>
+            <button id='FanAttack'>ATTAQUE</button>
+            <button id='FanDef'>DEFENSE</button>
+        </div>
+    
+    </div>
+    <div id ="weapons"> Les armes  </div>
+    <div id ="axe"></div>
+    <div id ="axed"> La hache de Odin<br> vous conferera +25 de dégats !</div>
+    <div id ="sworded"> L'épée de Belzebuth <br> vous conferera +30 de dégats !</div>
+    <div id="hammered">Le marteau de Thor<br>  vous conferera + 20 de dégats !</div>
+    <div id ="sticked"> Le goupillon <br>vous conferera +15 de dégats !</div>
+    <div id="wooded">L'épée de bois<br> arme par défaut vous confère +10 de dégats!</div>
+    <div id="armored">Bouclier Légendaire<br> ce bouclier unique vous confèrera +20 de santé</div>
+    <div id="armor"></div>
+    <div id="wood"> ></div>
+    <div id ="sword"></div>
+    <div id ="hammer"></div>
+    <div id ="stick"></div>
+    <div id="music"><audio autoplay controls loop > <source src="audio/lc.mp3.mp3"/> </audio> </div>
+    Dégats <div  id="damage"></div>
+    Santé <div id="health"> </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="crossorigin="anonymous">    </script>
+    <script src="../js/map.js"></script>
+    <script src="../js/addblock.js"></script>
+    <script src="../js/weapon.js"></script>
+    <script src="../js/characters.js"></script>
+    <script src="../js/movement.js"></script>
+    <script src="../js/event.js"></script>
+    <script src="../js/fight.js"></script>
+    <script src="../js/secondweapon.js"></script>
+    <script src="../js/blocklock.js"></script>
+
+</body>
+</html>
+
